@@ -4,5 +4,10 @@
   ],
   "routes": [
     {"src": "/(.*)", "dest": "src/app.py"}
-  ]
+  ],
+  "env": {
+    "LC_ALL": "C",
+    "LC_NUMERIC": "C",
+    "LANG": "C"
+  }
 }
